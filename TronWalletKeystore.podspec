@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TronWalletKeystore'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A general-purpose Tron keystore for managing wallets.'
 
   s.homepage         = 'https://github.com/TronLink/TronWalletKeystore'
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.dependency 'BigInt'
   s.dependency 'CryptoSwift'
   s.dependency 'TrezorCrypto'
-  s.dependency 'TronCore'
+  s.dependency 'TronWalletABI'
 
   s.pod_target_xcconfig = { 'SWIFT_OPTIMIZATION_LEVEL' => '-Owholemodule' }
 end
