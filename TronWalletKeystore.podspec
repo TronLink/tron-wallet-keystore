@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TronWalletKeystore'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A general-purpose Tron keystore for managing wallets.'
 
   s.homepage         = 'https://github.com/TronLink/TronWalletKeystore'
