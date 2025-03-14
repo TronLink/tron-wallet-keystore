@@ -29,7 +29,6 @@ public struct KeystoreKey {
     public var version = 3
 
     /// Creates a new `Key` with a password.
-    @available(iOS 10.0, *)
     public init(password: String, type: AccountType) throws {
         switch type {
         case .encryptedKey:
