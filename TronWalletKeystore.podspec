@@ -8,14 +8,14 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TronWalletKeystore'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'A general-purpose Tron keystore for managing wallets.'
 
   s.homepage         = 'https://github.com/TronLink/TronWalletKeystore'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = 'tronlinkdev'
   s.source           = { :git => 'https://github.com/TronLink/TronWalletKeystore.git', :tag => s.version.to_s }
-  s.platform = :ios, '12.0'
+  s.platform = :ios, '13.0'
   s.swift_version = '4.2'
   
   s.module_name = 'TronKeystore'
