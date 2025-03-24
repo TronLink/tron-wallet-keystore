@@ -1,6 +1,5 @@
 # TronWalletKeystore
 
-[![CI Status](https://img.shields.io/travis/TronLink/TronWalletKeystore.svg?style=flat)](https://travis-ci.org/TronLink/TronWalletKeystore)
 [![Version](https://img.shields.io/cocoapods/v/TronWalletKeystore.svg?style=flat)](https://cocoapods.org/pods/TronWalletKeystore)
 [![License](https://img.shields.io/cocoapods/l/TronWalletKeystore.svg?style=flat)](https://cocoapods.org/pods/TronWalletKeystore)
 [![Platform](https://img.shields.io/cocoapods/p/TronWalletKeystore.svg?style=flat)](https://cocoapods.org/pods/TronWalletKeystore)
@@ -13,7 +12,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-- iOS 10.0+
+- iOS 13.0+
+- Swift 4.2
 
 ## Installation
 
